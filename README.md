@@ -22,3 +22,9 @@ I will use this in future dynamoDB projects that I undertake as it will work for
 I will insert a code snippet below of my example code. Hope this works for you all :D
 
 ![alt text](https://github.com/RussianHamster6/ServelecQuizLambda/blob/master/images/example.PNG)
+
+This was created using Amazon web servers using a REST API gateway, AWS lambdas and DynamoDB. 
+
+The lambdas are referenced through the API gateway. They then interface with the Dynamo DB to get or post data from or onto the dynamoDB table. 
+
+The lambdas will interface with both the quiz frontend and the leaderboard frontend. 
