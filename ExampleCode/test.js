@@ -4,7 +4,8 @@ function httpRequest(){
     var params = {
         "TableName": "scores",
         "name": "Your username here",
-        "score": "0"
+        "score": "0",
+        "time": "X Seconds"
     };
     params = JSON.stringify(params);
     http.open('POST',url,true);
