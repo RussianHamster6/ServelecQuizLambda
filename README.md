@@ -1,7 +1,7 @@
 # ServelecQuizLambda
 My lambda functions and Read me of how to interface with them
 
-##Posting to the quiz DB.
+## Posting to the quiz DB.
 
 To post to the quiz db you need to create a HTTP request interfacing with the url for the post request.
 presently the url is: https://8z1k7fm2j2.execute-api.eu-west-2.amazonaws.com/Release/post
@@ -23,7 +23,7 @@ I will insert a code snippet below of my example code. Hope this works for you a
 
 ![alt text](https://github.com/RussianHamster6/ServelecQuizLambda/blob/master/images/example.PNG)
 
-##Bit of info
+## Bit of info
 
 This was created using Amazon web servers using a REST API gateway, AWS lambdas and DynamoDB. 
 
