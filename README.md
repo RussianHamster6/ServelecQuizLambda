@@ -23,6 +23,9 @@ I will insert a code snippet below of my example code. Hope this works for you a
 
 ![alt text](https://github.com/RussianHamster6/ServelecQuizLambda/blob/master/images/example.PNG)
 
+###Update
+Now there is an additional request header that is needed to be added on which is the x-api-key. This means any previous versions of the quiz software will now not work as they will not be authorised to access the api.
+
 ## Bit of info
 
 This was created using Amazon web servers using a REST API gateway, AWS lambdas and DynamoDB. 
